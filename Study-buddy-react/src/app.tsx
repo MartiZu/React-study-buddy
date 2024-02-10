@@ -10,8 +10,8 @@ export function App() {
       <Navbar />
       <div className="container main">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/UserPage" element={<UserPage />} />
+          <Route path="/" element={<UserPage />} />
+          <Route path="/Home" element={<Home />} />
         </Routes>
       </div>
       <Footer />
