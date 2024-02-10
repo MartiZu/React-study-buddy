@@ -1,7 +1,19 @@
 :root {
+  --primary-color: #bf9aff;
+  --primary-color-hover: #625291;
+  --secondary-color: #242424;
+  --secondary-color-hover: #4d4b55;;
+  --card-pink: #c89aff;
+  --card-yellow: #fcc699;
+  --card-green: #00c39a;
+  --card-azure: #50a2ff;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  button {
+    cursor: pointer;
+    border-radius: 1.5rem;
+  }
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -14,4 +26,7 @@
 }
 
 @import "partials/navbar";
-@import "partials/userpage"
+@import "partials/userpage";
+@import "partials/footer";
+@import "partials/login";
+@import "partials/register";
